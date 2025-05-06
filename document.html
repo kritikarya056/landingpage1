@@ -1,0 +1,213 @@
+<html>
+    <head><title>document</title>
+    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav><img src="logo1.png" class="logo1">
+                    
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Kamila</span><br>Taylor From Indonasia</h1>
+                </div>
+            </div>
+        </div>
+       <!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src ="photo1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I’m Kamila — a passionate UI/UX designer who thrives on creating intuitive and visually engaging digital experiences.
+                     With a strong eye for detail and a user-centered mindset, I specialize in turning complex ideas into clean, functional, 
+                     and aesthetically pleasing designs. I enjoy every step of the process — from research and wireframing to prototyping and user testing
+                      — always aiming to craft solutions that not only look good but feel right. I'm constantly exploring new trends, tools,
+                       and techniques to keep my designs fresh and impactful.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" >Experiences</p>
+                 <p class="tab-links" onclick="opentab('education')" >Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021- currnt</span><br>UI/UX Desing Traning at ET Institute</li>
+                        <li><span>2019-2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016-2017</span><br>Internship at ekart eCommerce.
+                        </li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="education" >
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Traning at ET Institude </li>
+                        <li><span>2016</span><br>MBA feom MIT Bangalore</li>
+                    </ul>
+                 </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web development encompasses the creation, maintenance, and improvement of websites and web applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design combines User Interface (UI) and User Experience (UX) design, focusing on creating intuitive and visually appealing interfaces and overall positive user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>process of creating software applications for various platforms, including mobile devices, desktop computers, and web browsers.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social app</h3>
+                    <p>Create app and make up to $1000 monthly passive income. Absolutely free 
+                        forever. No monthly charges, fees or paid features</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Mucic app</h3>
+                    <p>Create app and make up to $1000 monthly passive income. Absolutely free 
+                        forever. No monthly charges, fees or paid features</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online app</h3>
+                    <p>Create app and make up to $1000 monthly passive income. Absolutely free 
+                        forever. No monthly charges, fees or paid features</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+        </div>
+<!--contect-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> kamilataylor123@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 011345678</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    
+                </div>
+
+                <a href="Documents/my_cv.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email",required>
+                    <textarea name="Massage"  rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> kamila taylor</p>
+    </div>
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbxs3r7FJi_sjQjPOTJm88HSfkdoMIwYZ-TA6G0xsH13jkmI0TlEfkMX7xpe5MKTxYptGA/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById["msg"]
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
+    
